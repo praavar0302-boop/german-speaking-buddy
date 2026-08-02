@@ -1,0 +1,15 @@
+# Virtual Environment
+.SpeakingBuddyEnv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment Variables
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
