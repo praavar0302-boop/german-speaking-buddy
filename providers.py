@@ -71,10 +71,6 @@ def stream_gemini_response(
         }
     }
 
-    assistant_reply = ""
-
-    print("Assistant: ", end="", flush=True)
-
     with httpx.stream(
         "POST",
         url=GEMINI_API_URL,
@@ -119,17 +115,7 @@ def stream_gemini_response(
 
                 text_chunk = part["text"]
 
-                assistant_reply += text_chunk
-
-                print(
-                    text_chunk,
-                    end="",
-                    flush=True
-                )
-
-    print()
-
-    return assistant_reply
+                yield text_chunk
 
 
 def stream_openrouter_response(
@@ -157,10 +143,6 @@ def stream_openrouter_response(
         "messages": messages,
         "stream": True
     }
-
-    assistant_reply = ""
-
-    print("Assistant: ", end="", flush=True)
 
     with httpx.stream(
         "POST",
@@ -202,14 +184,4 @@ def stream_openrouter_response(
 
             text_chunk = delta["content"]
 
-            assistant_reply += text_chunk
-
-            print(
-                text_chunk,
-                end="",
-                flush=True
-            )
-
-    print()
-
-    return assistant_reply
+            yield text_chunk

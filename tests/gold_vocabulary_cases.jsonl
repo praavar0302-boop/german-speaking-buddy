@@ -1,0 +1,90 @@
+{"id":"a1-01","category":"normal_a1","sentence":"Ich gehe heute zur Arbeit.","level":"A1","expected":"PASS","reason":"Basic A1 movement, time, and work vocabulary."}
+{"id":"a1-02","category":"normal_a1","sentence":"Ich möchte einen Kaffee.","level":"A1","expected":"PASS","reason":"Basic request with an indefinite article."}
+{"id":"a1-03","category":"normal_a1","sentence":"Meine Freunde wohnen in Berlin.","level":"A1","expected":"PASS","reason":"Basic family/social vocabulary plus a place name."}
+{"id":"a1-04","category":"normal_a1","sentence":"Das Kind spielt im Garten.","level":"A1","expected":"PASS","reason":"Common A1 home and family vocabulary."}
+{"id":"a1-05","category":"normal_a1","sentence":"Wir kaufen Brot und Milch.","level":"A1","expected":"PASS","reason":"Common shopping and food vocabulary."}
+{"id":"a1-06","category":"normal_a1","sentence":"Der Bus kommt um acht Uhr.","level":"A1","expected":"PASS","reason":"Basic transport and time expression."}
+{"id":"a1-07","category":"normal_a1","sentence":"Heute ist das Wetter schön.","level":"A1","expected":"PASS","reason":"Common weather statement."}
+{"id":"a1-08","category":"normal_a1","sentence":"Wo ist der Bahnhof?","level":"A1","expected":"PASS","reason":"Basic location question."}
+{"id":"a1-09","category":"normal_a1","sentence":"Bitte öffnen Sie das Fenster.","level":"A1","expected":"PASS","reason":"Simple polite instruction."}
+{"id":"a1-10","category":"normal_a1","sentence":"Am Sonntag besuche ich meine Mutter.","level":"A1","expected":"PASS","reason":"Common day and family vocabulary."}
+{"id":"a2-01","category":"normal_a2","sentence":"Ich bleibe zu Hause, weil ich krank bin.","level":"A2","expected":"PASS","reason":"A2 causal subordinate clause."}
+{"id":"a2-02","category":"normal_a2","sentence":"Gestern habe ich einen Film gesehen.","level":"A2","expected":"PASS","reason":"Common perfect-tense sentence."}
+{"id":"a2-03","category":"normal_a2","sentence":"Wenn es regnet, nehme ich den Bus.","level":"A2","expected":"PASS","reason":"A2 conditional clause with common vocabulary."}
+{"id":"a2-04","category":"normal_a2","sentence":"Wir haben die Reise im Internet gebucht.","level":"A2","expected":"PASS","reason":"Common A2 travel and internet vocabulary."}
+{"id":"a2-05","category":"normal_a2","sentence":"Sie interessiert sich für Musik.","level":"A2","expected":"PASS","reason":"A2 reflexive verb from the source list."}
+{"id":"a2-06","category":"normal_a2","sentence":"Kannst du mir den Weg erklären?","level":"A2","expected":"PASS","reason":"Common A2 request and verb."}
+{"id":"a2-07","category":"normal_a2","sentence":"Der Zug hat leider Verspätung.","level":"A2","expected":"PASS","reason":"Common travel problem vocabulary."}
+{"id":"a2-08","category":"normal_a2","sentence":"Ich freue mich auf die Ferien.","level":"A2","expected":"PASS","reason":"A2 reflexive construction."}
+{"id":"a2-09","category":"normal_a2","sentence":"Er sucht eine größere Wohnung.","level":"A2","expected":"PASS","reason":"A2 housing vocabulary with comparison."}
+{"id":"a2-10","category":"normal_a2","sentence":"Wir treffen uns nach dem Unterricht.","level":"A2","expected":"PASS","reason":"A2 social and education vocabulary."}
+{"id":"a2a1-01","category":"a2_under_a1","sentence":"Ich komme, weil ich Zeit habe.","level":"A1","expected":"FAIL","reason":"weil is in A2 but not A1 compiled vocabulary."}
+{"id":"a2a1-02","category":"a2_under_a1","sentence":"Wenn es regnet, bleibe ich hier.","level":"A1","expected":"FAIL","reason":"wenn is expected to exceed A1."}
+{"id":"a2a1-03","category":"a2_under_a1","sentence":"Ich habe den Termin verschoben.","level":"A1","expected":"FAIL","reason":"verschieben is an A2 source entry."}
+{"id":"a2a1-04","category":"a2_under_a1","sentence":"Sie hat die Prüfung bestanden.","level":"A1","expected":"FAIL","reason":"bestehen in this exam context is A2 vocabulary."}
+{"id":"a2a1-05","category":"a2_under_a1","sentence":"Wir müssen einen Termin vereinbaren.","level":"A1","expected":"FAIL","reason":"vereinbaren is an A2 source entry."}
+{"id":"a2a1-06","category":"a2_under_a1","sentence":"Er hat seinen Schlüssel verloren.","level":"A1","expected":"FAIL","reason":"verlieren is expected from the A2 inventory."}
+{"id":"a2a1-07","category":"a2_under_a1","sentence":"Bitte unterschreiben Sie den Vertrag.","level":"A1","expected":"FAIL","reason":"Vertrag is expected to exceed A1."}
+{"id":"a2a1-08","category":"a2_under_a1","sentence":"Die Veranstaltung beginnt um acht.","level":"A1","expected":"FAIL","reason":"Veranstaltung is an A2 source entry."}
+{"id":"infl-01","category":"inflection","sentence":"Meine Freunde wohnen hier.","level":"A1","expected":"PASS","reason":"Freunde should normalize to Freund."}
+{"id":"infl-02","category":"inflection","sentence":"Ich spreche mit meinen Freunden.","level":"A1","expected":"PASS","reason":"Freunden and meinen require contextual lemmas."}
+{"id":"infl-03","category":"inflection","sentence":"Das ist ein kleines Haus.","level":"A1","expected":"PASS","reason":"kleines should normalize to klein."}
+{"id":"infl-04","category":"inflection","sentence":"Die Kinder spielen draußen.","level":"A1","expected":"PASS","reason":"Kinder should normalize to Kind."}
+{"id":"infl-05","category":"inflection","sentence":"Sie kauft rote Äpfel.","level":"A1","expected":"PASS","reason":"Adjective and noun plural inflection."}
+{"id":"infl-06","category":"inflection","sentence":"Er fährt mit dem neuen Auto.","level":"A1","expected":"PASS","reason":"Verb and adjective inflection."}
+{"id":"infl-07","category":"inflection","sentence":"Wir haben lange gearbeitet.","level":"A2","expected":"PASS","reason":"Perfect participle should normalize to arbeiten."}
+{"id":"infl-08","category":"inflection","sentence":"Sie trägt eine blaue Jacke.","level":"A2","expected":"PASS","reason":"Irregular verb and adjective inflection."}
+{"id":"infl-09","category":"inflection","sentence":"Das größere Zimmer ist frei.","level":"A2","expected":"PASS","reason":"Comparative adjective should normalize to groß."}
+{"id":"infl-10","category":"inflection","sentence":"Er ist am liebsten zu Hause.","level":"A2","expected":"PASS","reason":"Superlative source form and fixed expression."}
+{"id":"func-01","category":"function_words","sentence":"Diese Tasche ist neu.","level":"A1","expected":"PASS","reason":"Common demonstrative determiner should not block an A1 sentence."}
+{"id":"func-02","category":"function_words","sentence":"Dieses Buch ist interessant.","level":"A2","expected":"PASS","reason":"Inflected demonstrative is ordinary function grammar."}
+{"id":"func-03","category":"function_words","sentence":"Jeder Tag ist anders.","level":"A1","expected":"PASS","reason":"Common quantifying determiner."}
+{"id":"func-04","category":"function_words","sentence":"Welche Farbe möchtest du?","level":"A1","expected":"PASS","reason":"Interrogative determiner with A1 vocabulary."}
+{"id":"func-05","category":"function_words","sentence":"Niemand ist zu Hause.","level":"A2","expected":"PASS","reason":"Common indefinite pronoun listed for A2."}
+{"id":"func-06","category":"function_words","sentence":"Ich sehe ihn jeden Tag.","level":"A1","expected":"PASS","reason":"Personal pronoun and inflected determiner."}
+{"id":"func-07","category":"function_words","sentence":"Kannst du uns helfen?","level":"A1","expected":"PASS","reason":"Common object pronoun."}
+{"id":"func-08","category":"function_words","sentence":"Man kann hier gut essen.","level":"A1","expected":"PASS","reason":"Impersonal pronoun and modal verb."}
+{"id":"func-09","category":"function_words","sentence":"Beide Kinder sind müde.","level":"A1","expected":"PASS","reason":"Common quantifier."}
+{"id":"func-10","category":"function_words","sentence":"Etwas anderes ist nicht möglich.","level":"A2","expected":"PASS","reason":"Indefinite pronoun and nominalized adjective."}
+{"id":"contr-01","category":"contractions","sentence":"Ich fahre zum Bahnhof.","level":"A1","expected":"PASS","reason":"zum expands to zu dem."}
+{"id":"contr-02","category":"contractions","sentence":"Sie geht zur Arbeit.","level":"A1","expected":"PASS","reason":"zur expands to zu der."}
+{"id":"contr-03","category":"contractions","sentence":"Wir sind im Hotel.","level":"A1","expected":"PASS","reason":"im expands to in dem."}
+{"id":"contr-04","category":"contractions","sentence":"Er geht ins Kino.","level":"A1","expected":"PASS","reason":"ins expands to in das."}
+{"id":"contr-05","category":"contractions","sentence":"Ich komme vom Arzt.","level":"A1","expected":"PASS","reason":"vom expands to von dem."}
+{"id":"contr-06","category":"contractions","sentence":"Wir treffen uns am Montag.","level":"A1","expected":"PASS","reason":"am expands to an dem."}
+{"id":"contr-07","category":"contractions","sentence":"Das Geschenk ist fürs Kind.","level":"A2","expected":"PASS","reason":"Common contraction fürs should be accepted."}
+{"id":"contr-08","category":"contractions","sentence":"Sie geht durchs Haus.","level":"A2","expected":"PASS","reason":"durchs expands to durch das."}
+{"id":"sep-01","category":"separable_verbs","sentence":"Ich stehe um sieben Uhr auf.","level":"A1","expected":"PASS","reason":"aufstehen appears separated."}
+{"id":"sep-02","category":"separable_verbs","sentence":"Der Zug fährt um acht Uhr ab.","level":"A1","expected":"PASS","reason":"abfahren appears separated."}
+{"id":"sep-03","category":"separable_verbs","sentence":"Bitte rufen Sie mich an.","level":"A1","expected":"PASS","reason":"anrufen appears separated."}
+{"id":"sep-04","category":"separable_verbs","sentence":"Ich kaufe heute ein.","level":"A1","expected":"PASS","reason":"einkaufen appears separated."}
+{"id":"sep-05","category":"separable_verbs","sentence":"Wir machen das Fenster auf.","level":"A2","expected":"PASS","reason":"aufmachen appears separated."}
+{"id":"sep-06","category":"separable_verbs","sentence":"Er füllt das Formular aus.","level":"A2","expected":"PASS","reason":"ausfüllen appears separated."}
+{"id":"sep-07","category":"separable_verbs","sentence":"Sie nimmt am Kurs teil.","level":"A2","expected":"PASS","reason":"teilnehmen appears separated with contraction."}
+{"id":"sep-08","category":"separable_verbs","sentence":"Wir räumen das Zimmer auf.","level":"A2","expected":"PASS","reason":"aufräumen appears separated."}
+{"id":"proper-01","category":"proper_nouns","sentence":"Anna wohnt in Berlin.","level":"A1","expected":"PASS","reason":"Person and city names should be allowed as proper nouns."}
+{"id":"proper-02","category":"proper_nouns","sentence":"Mehmet kommt aus Ankara.","level":"A1","expected":"PASS","reason":"Person and city names should not require Goethe entries."}
+{"id":"proper-03","category":"proper_nouns","sentence":"Maria arbeitet bei Siemens.","level":"A2","expected":"PASS","reason":"Person and organization names."}
+{"id":"proper-04","category":"proper_nouns","sentence":"Wir fahren nach München.","level":"A1","expected":"PASS","reason":"German city name."}
+{"id":"proper-05","category":"proper_nouns","sentence":"Herr García kommt aus Spanien.","level":"A1","expected":"PASS","reason":"Title, person name, and country."}
+{"id":"proper-06","category":"proper_nouns","sentence":"Lena besucht das Goethe-Institut.","level":"A2","expected":"PASS","reason":"Hyphenated organization name."}
+{"id":"proper-07","category":"proper_nouns","sentence":"Praavars wohnt hier.","level":"A1","expected":"PASS","reason":"Explicit session-introduced name.","session_terms":["Praavars"]}
+{"id":"proper-08","category":"proper_nouns","sentence":"Quantencomputer sind interessant.","level":"A2","expected":"UNKNOWN","reason":"Capitalization alone must not make an unknown noun proper."}
+{"id":"num-01","category":"numbers_dates_times","sentence":"Ich habe 2 Brüder.","level":"A1","expected":"PASS","reason":"Arabic numeral and common family noun."}
+{"id":"num-02","category":"numbers_dates_times","sentence":"Der Kurs beginnt um 9 Uhr.","level":"A1","expected":"PASS","reason":"Numeric clock time."}
+{"id":"num-03","category":"numbers_dates_times","sentence":"Heute ist der 18. September.","level":"A1","expected":"PASS","reason":"Ordinal date and month."}
+{"id":"num-04","category":"numbers_dates_times","sentence":"Das kostet 12,50 Euro.","level":"A1","expected":"PASS","reason":"Decimal price."}
+{"id":"num-05","category":"numbers_dates_times","sentence":"Mein Termin ist am 03.10.2026.","level":"A2","expected":"PASS","reason":"Numeric date with punctuation."}
+{"id":"num-06","category":"numbers_dates_times","sentence":"Der Film beginnt um 20:15 Uhr.","level":"A2","expected":"PASS","reason":"Digital time containing punctuation."}
+{"id":"compound-01","category":"compounds","sentence":"Ich warte am Hauptbahnhof.","level":"A2","expected":"PASS","reason":"Common listed transport compound."}
+{"id":"compound-02","category":"compounds","sentence":"Die Waschmaschine ist kaputt.","level":"A1","expected":"PASS","reason":"Common listed household compound."}
+{"id":"compound-03","category":"compounds","sentence":"Mein Lieblingsfilm ist lustig.","level":"A2","expected":"PASS","reason":"Common productive compound represented by a source stem."}
+{"id":"compound-04","category":"compounds","sentence":"Der Fahrradschlüssel liegt hier.","level":"A2","expected":"UNKNOWN","reason":"Unlisted productive compound; no aggressive splitting."}
+{"id":"compound-05","category":"compounds","sentence":"Die Datenschutzgrundverordnung ist wichtig.","level":"A2","expected":"UNKNOWN","reason":"Advanced unlisted compound should remain unknown."}
+{"id":"outside-01","category":"outside_lexicon","sentence":"Wir müssen diese Angelegenheit berücksichtigen.","level":"A2","expected":"UNKNOWN","reason":"Advanced noun and verb outside available lexicons."}
+{"id":"outside-02","category":"outside_lexicon","sentence":"Die Implementierung erfordert eine umfassende Evaluierung.","level":"A2","expected":"UNKNOWN","reason":"Technical and academic vocabulary outside A2."}
+{"id":"outside-03","category":"outside_lexicon","sentence":"Die Quantenmechanik beschreibt mikroskopische Systeme.","level":"A2","expected":"UNKNOWN","reason":"Specialist scientific vocabulary."}
+{"id":"outside-04","category":"outside_lexicon","sentence":"Seine Argumentation war außerordentlich differenziert.","level":"A2","expected":"UNKNOWN","reason":"Clearly advanced abstract vocabulary."}
+{"id":"ambig-01","category":"ambiguous","sentence":"Sie meinen meinen Bruder.","level":"A2","expected":"PASS","reason":"Same surface form represents verb and possessive determiner."}
+{"id":"ambig-02","category":"ambiguous","sentence":"Das Schloss ist alt.","level":"A2","expected":"PASS","reason":"Lexically ambiguous noun with a level-appropriate surface form."}
+{"id":"ambig-03","category":"ambiguous","sentence":"Ich umfahre das Hindernis.","level":"A2","expected":"UNKNOWN","reason":"Prefix ambiguity and vocabulary outside the source list."}

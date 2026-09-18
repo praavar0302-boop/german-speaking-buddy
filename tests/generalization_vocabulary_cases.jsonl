@@ -1,0 +1,150 @@
+{"id":"gen-a1-001","category":"everyday_a1","sentence":"Guten Morgen, wie geht es Ihnen?","level":"A1","expected":"PASS","reason":"Routine greeting and wellbeing question."}
+{"id":"gen-a1-002","category":"everyday_a1","sentence":"Danke, mir geht es sehr gut.","level":"A1","expected":"PASS","reason":"Routine response using basic personal language."}
+{"id":"gen-a1-003","category":"everyday_a1","sentence":"Ich bin müde und gehe jetzt schlafen.","level":"A1","expected":"PASS","reason":"Basic state and daily routine."}
+{"id":"gen-a1-004","category":"everyday_a1","sentence":"Heute habe ich keine Schule.","level":"A1","expected":"PASS","reason":"Simple statement about today's routine."}
+{"id":"gen-a1-005","category":"everyday_a1","sentence":"Mein Vater kocht heute Abend.","level":"A1","expected":"PASS","reason":"Familiar family and meal context."}
+{"id":"gen-a1-006","category":"everyday_a1","sentence":"Wir hören gern Musik.","level":"A1","expected":"PASS","reason":"Basic leisure preference."}
+{"id":"gen-a1-007","category":"everyday_a1","sentence":"Die Wohnung ist klein, aber schön.","level":"A1","expected":"PASS","reason":"Simple familiar description joined with an A1 connector."}
+{"id":"gen-a1-008","category":"everyday_a1","sentence":"Nach der Arbeit mache ich Sport.","level":"A1","expected":"PASS","reason":"Common work and leisure routine."}
+{"id":"gen-a1-009","category":"everyday_a1","sentence":"Meine Schwester liest jeden Abend.","level":"A1","expected":"PASS","reason":"Family and recurring daily activity."}
+{"id":"gen-a1-010","category":"everyday_a1","sentence":"Draußen ist es kalt und windig.","level":"A1","expected":"PASS","reason":"Basic weather description."}
+{"id":"gen-q-001","category":"questions_answers","sentence":"Wie heißen Sie?","level":"A1","expected":"PASS","reason":"Basic personal-information question."}
+{"id":"gen-q-002","category":"questions_answers","sentence":"Woher kommst du?","level":"A1","expected":"PASS","reason":"Basic origin question."}
+{"id":"gen-q-003","category":"questions_answers","sentence":"Wann beginnt dein Kurs?","level":"A1","expected":"PASS","reason":"Simple time question."}
+{"id":"gen-q-004","category":"questions_answers","sentence":"Warum bist du heute hier?","level":"A1","expected":"PASS","reason":"Basic reason question without a subordinate clause."}
+{"id":"gen-q-005","category":"questions_answers","sentence":"Haben Sie noch Fragen?","level":"A1","expected":"PASS","reason":"Routine formal question."}
+{"id":"gen-q-006","category":"questions_answers","sentence":"Was möchten Sie trinken?","level":"A1","expected":"PASS","reason":"Routine service question."}
+{"id":"gen-q-007","category":"questions_answers","sentence":"Welchen Bus nehmen wir?","level":"A1","expected":"PASS","reason":"Interrogative determiner in a transport question."}
+{"id":"gen-q-008","category":"questions_answers","sentence":"Können Sie das bitte wiederholen?","level":"A1","expected":"PASS","reason":"Common classroom clarification request."}
+{"id":"gen-q-009","category":"questions_answers","sentence":"Gehört diese Jacke dir?","level":"A2","expected":"PASS","reason":"Routine ownership question with dative pronoun."}
+{"id":"gen-q-010","category":"questions_answers","sentence":"Nein, sie gehört meiner Kollegin.","level":"A2","expected":"PASS","reason":"Natural answer using a possessive and dative noun."}
+{"id":"gen-cafe-001","category":"cafe_shopping","sentence":"Ich nehme eine Suppe und ein Wasser.","level":"A1","expected":"PASS","reason":"Simple café order."}
+{"id":"gen-cafe-002","category":"cafe_shopping","sentence":"Bringen Sie uns bitte die Rechnung.","level":"A1","expected":"PASS","reason":"Routine restaurant request."}
+{"id":"gen-cafe-003","category":"cafe_shopping","sentence":"Haben Sie auch Tee ohne Zucker?","level":"A1","expected":"PASS","reason":"Basic café availability question."}
+{"id":"gen-cafe-004","category":"cafe_shopping","sentence":"Die Tomaten kosten drei Euro.","level":"A1","expected":"PASS","reason":"Basic food-price statement."}
+{"id":"gen-cafe-005","category":"cafe_shopping","sentence":"Ich brauche eine neue Hose.","level":"A1","expected":"PASS","reason":"Common clothing purchase."}
+{"id":"gen-cafe-006","category":"cafe_shopping","sentence":"Kann ich mit Karte zahlen?","level":"A1","expected":"PASS","reason":"Routine payment question."}
+{"id":"gen-cafe-007","category":"cafe_shopping","sentence":"Diese Schuhe sind leider zu teuer.","level":"A1","expected":"PASS","reason":"Simple product evaluation with demonstrative."}
+{"id":"gen-cafe-008","category":"cafe_shopping","sentence":"Gibt es die Bluse auch in Grün?","level":"A1","expected":"PASS","reason":"Routine clothing and color question."}
+{"id":"gen-cafe-009","category":"cafe_shopping","sentence":"Für mich bitte ein Stück Kuchen.","level":"A1","expected":"PASS","reason":"Common café phrase."}
+{"id":"gen-cafe-010","category":"cafe_shopping","sentence":"Der Verkäufer zeigt mir ein günstigeres Modell.","level":"A2","expected":"PASS","reason":"A2 shopping sentence with comparative adjective."}
+{"id":"gen-scen-001","category":"travel_home_work","sentence":"Unser Hotel liegt direkt am Meer.","level":"A1","expected":"PASS","reason":"Simple accommodation description."}
+{"id":"gen-scen-002","category":"travel_home_work","sentence":"Der nächste Zug kommt auf Gleis fünf.","level":"A2","expected":"PASS","reason":"Routine rail-travel information."}
+{"id":"gen-scen-003","category":"travel_home_work","sentence":"Ich suche ein Zimmer mit Balkon.","level":"A1","expected":"PASS","reason":"Basic housing request."}
+{"id":"gen-scen-004","category":"travel_home_work","sentence":"In der Küche steht ein großer Tisch.","level":"A1","expected":"PASS","reason":"Basic home and furniture description."}
+{"id":"gen-scen-005","category":"travel_home_work","sentence":"Meine Kolleginnen arbeiten heute im Büro.","level":"A2","expected":"PASS","reason":"Routine workplace statement with feminine plural."}
+{"id":"gen-scen-006","category":"travel_home_work","sentence":"Der Chef erklärt die neue Aufgabe.","level":"A2","expected":"PASS","reason":"Common workplace interaction."}
+{"id":"gen-scen-007","category":"travel_home_work","sentence":"Wir brauchen eine Unterkunft für zwei Nächte.","level":"A2","expected":"PASS","reason":"Routine A2 accommodation request."}
+{"id":"gen-scen-008","category":"travel_home_work","sentence":"Der Aufzug ist neben der Treppe.","level":"A1","expected":"PASS","reason":"Simple building location description."}
+{"id":"gen-scen-009","category":"travel_home_work","sentence":"Morgen fahre ich dienstlich nach Köln.","level":"A2","expected":"PASS","reason":"Simple A2 work-travel statement."}
+{"id":"gen-scen-010","category":"travel_home_work","sentence":"Mein Arbeitsplatz ist ruhig und hell.","level":"A2","expected":"PASS","reason":"Familiar workplace description."}
+{"id":"gen-infl-001","category":"inflections","sentence":"Die jungen Männer warten draußen.","level":"A1","expected":"PASS","reason":"Plural noun and adjective inflection."}
+{"id":"gen-infl-002","category":"inflections","sentence":"Ich gebe meiner Lehrerin das Buch.","level":"A1","expected":"PASS","reason":"Dative possessive and feminine profession form."}
+{"id":"gen-infl-003","category":"inflections","sentence":"Wir essen frisches Brot.","level":"A1","expected":"PASS","reason":"Adjective inflection in a familiar food phrase."}
+{"id":"gen-infl-004","category":"inflections","sentence":"Sie trägt schwarze Schuhe.","level":"A1","expected":"PASS","reason":"Irregular verb plus adjective and plural noun."}
+{"id":"gen-infl-005","category":"inflections","sentence":"Die älteren Kinder spielen zusammen.","level":"A2","expected":"PASS","reason":"Comparative adjective used attributively."}
+{"id":"gen-infl-006","category":"inflections","sentence":"Er spricht mit seiner neuen Nachbarin.","level":"A2","expected":"PASS","reason":"Dative possessive, adjective, and feminine noun."}
+{"id":"gen-infl-007","category":"inflections","sentence":"Wir sehen die hohen Berge.","level":"A1","expected":"PASS","reason":"Accusative plural adjective inflection."}
+{"id":"gen-infl-008","category":"inflections","sentence":"Sie hilft ihren kranken Eltern.","level":"A2","expected":"PASS","reason":"Dative plural possessive and adjective."}
+{"id":"gen-infl-009","category":"inflections","sentence":"Das sind die besten Plätze.","level":"A2","expected":"PASS","reason":"Superlative adjective and plural noun."}
+{"id":"gen-infl-010","category":"inflections","sentence":"Ich kenne beide deutschen Wörter.","level":"A2","expected":"PASS","reason":"Quantifier and adjective inflection."}
+{"id":"gen-func-001","category":"function_words","sentence":"Dieser Platz ist noch frei.","level":"A1","expected":"PASS","reason":"Common demonstrative determiner."}
+{"id":"gen-func-002","category":"function_words","sentence":"Jede Person bekommt eine Karte.","level":"A1","expected":"PASS","reason":"Common distributive determiner."}
+{"id":"gen-func-003","category":"function_words","sentence":"Wem gehört der blaue Mantel?","level":"A2","expected":"PASS","reason":"Dative interrogative pronoun."}
+{"id":"gen-func-004","category":"function_words","sentence":"Dort wartet jemand auf dich.","level":"A2","expected":"PASS","reason":"Indefinite pronoun and object pronoun."}
+{"id":"gen-func-005","category":"function_words","sentence":"Keiner von uns kennt ihn.","level":"A2","expected":"PASS","reason":"Negative pronoun and object pronouns."}
+{"id":"gen-func-006","category":"function_words","sentence":"Was für einen Film magst du?","level":"A1","expected":"PASS","reason":"Common interrogative construction."}
+{"id":"gen-func-007","category":"function_words","sentence":"Man darf hier nicht parken.","level":"A1","expected":"PASS","reason":"Impersonal pronoun and modal auxiliary."}
+{"id":"gen-func-008","category":"function_words","sentence":"Wir können euch morgen besuchen.","level":"A1","expected":"PASS","reason":"Modal verb and object pronoun."}
+{"id":"gen-func-009","category":"function_words","sentence":"Welche von diesen Taschen ist deine?","level":"A2","expected":"PASS","reason":"Interrogative and demonstrative pronouns."}
+{"id":"gen-func-010","category":"function_words","sentence":"Ich möchte dieselbe Nummer noch einmal.","level":"A2","expected":"PASS","reason":"Common identity determiner in a routine request."}
+{"id":"gen-contr-001","category":"contractions","sentence":"Beim Frühstück lese ich die Zeitung.","level":"A1","expected":"PASS","reason":"beim contraction in a routine context."}
+{"id":"gen-contr-002","category":"contractions","sentence":"Das Bild hängt übers Bett.","level":"A2","expected":"PASS","reason":"übers contraction in a home context."}
+{"id":"gen-contr-003","category":"contractions","sentence":"Wir gehen ans Fenster.","level":"A1","expected":"PASS","reason":"ans contraction with a familiar noun."}
+{"id":"gen-contr-004","category":"contractions","sentence":"Die Kinder laufen ums Haus.","level":"A2","expected":"PASS","reason":"ums contraction in a simple movement sentence."}
+{"id":"gen-contr-005","category":"contractions","sentence":"Er legt das Handy aufs Bett.","level":"A2","expected":"PASS","reason":"aufs contraction in a location-change expression."}
+{"id":"gen-contr-006","category":"contractions","sentence":"Ich komme gerade ausm Büro.","level":"A2","expected":"UNKNOWN","reason":"Colloquial contraction ausm is genuinely uncertain for the policy."}
+{"id":"gen-contr-007","category":"contractions","sentence":"Beim Arzt muss ich lange warten.","level":"A1","expected":"PASS","reason":"Common beim contraction and health context."}
+{"id":"gen-contr-008","category":"contractions","sentence":"Sie schaut durchs offene Fenster.","level":"A2","expected":"PASS","reason":"durchs contraction with adjective inflection."}
+{"id":"gen-contr-009","category":"contractions","sentence":"Das Paket kommt vom Nachbarn.","level":"A2","expected":"PASS","reason":"vom contraction with an inflected noun."}
+{"id":"gen-contr-010","category":"contractions","sentence":"Zum Abendessen trinken wir Wasser.","level":"A1","expected":"PASS","reason":"zum contraction in a meal context."}
+{"id":"gen-sep-001","category":"separable_reflexive","sentence":"Mach bitte die Tür zu.","level":"A1","expected":"PASS","reason":"Common separated verb zumachen."}
+{"id":"gen-sep-002","category":"separable_reflexive","sentence":"Wann kommt das Flugzeug an?","level":"A1","expected":"PASS","reason":"Common separated verb ankommen."}
+{"id":"gen-sep-003","category":"separable_reflexive","sentence":"Ich ziehe meine Schuhe aus.","level":"A1","expected":"PASS","reason":"Common separated reflexive-capable verb ausziehen."}
+{"id":"gen-sep-004","category":"separable_reflexive","sentence":"Bitte kreuzen Sie die Antwort an.","level":"A1","expected":"PASS","reason":"Common exam instruction with ankreuzen."}
+{"id":"gen-sep-005","category":"separable_reflexive","sentence":"Wir melden uns für den Kurs an.","level":"A2","expected":"PASS","reason":"Separated reflexive anmelden."}
+{"id":"gen-sep-006","category":"separable_reflexive","sentence":"Ich ruhe mich nach der Arbeit aus.","level":"A2","expected":"PASS","reason":"Separated reflexive ausruhen."}
+{"id":"gen-sep-007","category":"separable_reflexive","sentence":"Sie bereitet sich auf die Prüfung vor.","level":"A2","expected":"PASS","reason":"Separated reflexive vorbereiten."}
+{"id":"gen-sep-008","category":"separable_reflexive","sentence":"Er erinnert sich an den Termin.","level":"A2","expected":"PASS","reason":"Common A2 reflexive verb erinnern."}
+{"id":"gen-sep-009","category":"separable_reflexive","sentence":"Wir sehen uns die Wohnung an.","level":"A2","expected":"PASS","reason":"Separated verb ansehen with reflexive pronoun."}
+{"id":"gen-sep-010","category":"separable_reflexive","sentence":"Bitte packen Sie den Koffer aus.","level":"A2","expected":"PASS","reason":"Common separated travel verb auspacken."}
+{"id":"gen-perf-001","category":"perfekt","sentence":"Ich habe gestern lange telefoniert.","level":"A1","expected":"PASS","reason":"Simple Perfekt with a frequent everyday verb."}
+{"id":"gen-perf-002","category":"perfekt","sentence":"Wir sind am Samstag nach Bonn gefahren.","level":"A2","expected":"PASS","reason":"Conversational Perfekt of fahren."}
+{"id":"gen-perf-003","category":"perfekt","sentence":"Sie hat eine E-Mail geschrieben.","level":"A1","expected":"PASS","reason":"Common A1 communication event in Perfekt."}
+{"id":"gen-perf-004","category":"perfekt","sentence":"Hast du gut geschlafen?","level":"A1","expected":"PASS","reason":"Routine question in Perfekt."}
+{"id":"gen-perf-005","category":"perfekt","sentence":"Der Kurs hat letzte Woche angefangen.","level":"A2","expected":"PASS","reason":"Perfekt of a separable verb."}
+{"id":"gen-perf-006","category":"perfekt","sentence":"Ich habe meinen Pass vergessen.","level":"A2","expected":"PASS","reason":"Common travel problem in Perfekt."}
+{"id":"gen-perf-007","category":"perfekt","sentence":"Wir haben im Park Fußball gespielt.","level":"A1","expected":"PASS","reason":"Familiar leisure event in Perfekt."}
+{"id":"gen-perf-008","category":"perfekt","sentence":"Das Kind ist schnell eingeschlafen.","level":"A2","expected":"PASS","reason":"Common change-of-state verb in Perfekt."}
+{"id":"gen-perf-009","category":"perfekt","sentence":"Warum hast du das Fenster geschlossen?","level":"A2","expected":"PASS","reason":"A2 past-event question."}
+{"id":"gen-perf-010","category":"perfekt","sentence":"Meine Großeltern haben uns besucht.","level":"A1","expected":"PASS","reason":"Simple family event in Perfekt."}
+{"id":"gen-sub-001","category":"a2_subordinate","sentence":"Ich nehme einen Schirm, weil es regnet.","level":"A2","expected":"PASS","reason":"Simple causal subordinate clause allowed at A2."}
+{"id":"gen-sub-002","category":"a2_subordinate","sentence":"Sie sagt, dass der Kurs heute ausfällt.","level":"A2","expected":"PASS","reason":"Simple dass-clause at A2."}
+{"id":"gen-sub-003","category":"a2_subordinate","sentence":"Ruf mich an, wenn du fertig bist.","level":"A2","expected":"PASS","reason":"Simple conditional subordinate clause."}
+{"id":"gen-sub-004","category":"a2_subordinate","sentence":"Ich weiß nicht, ob das Geschäft offen ist.","level":"A2","expected":"PASS","reason":"Simple indirect yes/no question at A2."}
+{"id":"gen-sub-005","category":"a2_subordinate","sentence":"Obwohl ich müde bin, gehe ich zum Training.","level":"A2","expected":"UNKNOWN","reason":"obwohl is beyond the deliberately narrow listed A2 connectors."}
+{"id":"gen-sub-006","category":"a2_subordinate","sentence":"Ich bleibe im Bett, weil ich Fieber habe.","level":"A1","expected":"FAIL","reason":"weil-clause intentionally exceeds the A1 policy."}
+{"id":"gen-sub-007","category":"a2_subordinate","sentence":"Wenn der Bus kommt, fahren wir los.","level":"A1","expected":"FAIL","reason":"wenn subordinate clause intentionally exceeds A1."}
+{"id":"gen-sub-008","category":"a2_subordinate","sentence":"Er glaubt, dass morgen Feiertag ist.","level":"A1","expected":"FAIL","reason":"dass-clause intentionally exceeds A1."}
+{"id":"gen-sub-009","category":"a2_subordinate","sentence":"Sie fragt, ob wir Zeit haben.","level":"A1","expected":"FAIL","reason":"ob-clause intentionally exceeds A1."}
+{"id":"gen-sub-010","category":"a2_subordinate","sentence":"Wir gehen spazieren, obwohl es kalt ist.","level":"A1","expected":"UNKNOWN","reason":"Unknown above-policy connector without an authoritative B1 list."}
+{"id":"gen-name-001","category":"names_session_terms","sentence":"Julia studiert in Leipzig.","level":"A2","expected":"PASS","reason":"Ordinary person and city names."}
+{"id":"gen-name-002","category":"names_session_terms","sentence":"Herr Yılmaz arbeitet bei Bosch.","level":"A2","expected":"PASS","reason":"Person and organization names in a work context."}
+{"id":"gen-name-003","category":"names_session_terms","sentence":"Sofia fliegt morgen nach Madrid.","level":"A1","expected":"PASS","reason":"Person and city names in a simple travel statement."}
+{"id":"gen-name-004","category":"names_session_terms","sentence":"Nora besucht Paul in Hamburg.","level":"A1","expected":"PASS","reason":"Two person names and a city."}
+{"id":"gen-name-005","category":"names_session_terms","sentence":"Kavish bestellt einen Tee.","level":"A1","expected":"PASS","reason":"Session-introduced person name.","session_terms":["Kavish"]}
+{"id":"gen-name-006","category":"names_session_terms","sentence":"Wir sprechen heute über FluxDB.","level":"A2","expected":"PASS","reason":"Explicit session-introduced technical term.","session_terms":["FluxDB"]}
+{"id":"gen-name-007","category":"names_session_terms","sentence":"Das Treffen ist bei Nordlicht GmbH.","level":"A2","expected":"PASS","reason":"Explicit multiword session organization.","session_terms":["Nordlicht GmbH"]}
+{"id":"gen-name-008","category":"names_session_terms","sentence":"Blorx wohnt neben mir.","level":"A1","expected":"UNKNOWN","reason":"Unknown capitalized token without session provenance."}
+{"id":"gen-name-009","category":"names_session_terms","sentence":"Die Firma Zentrovia sucht Mitarbeiter.","level":"A2","expected":"UNKNOWN","reason":"Invented organization without session provenance or reliable recognition."}
+{"id":"gen-name-010","category":"names_session_terms","sentence":"Unser Hund heißt Momo.","level":"A1","expected":"PASS","reason":"Pet name in a familiar A1 context."}
+{"id":"gen-num-001","category":"numbers_dates_times","sentence":"Mein Geburtstag ist am 7. Mai.","level":"A1","expected":"PASS","reason":"Simple ordinal date."}
+{"id":"gen-num-002","category":"numbers_dates_times","sentence":"Der Laden öffnet um 08:30 Uhr.","level":"A2","expected":"PASS","reason":"Digital opening time."}
+{"id":"gen-num-003","category":"numbers_dates_times","sentence":"Wir bleiben fünf Tage in Wien.","level":"A1","expected":"PASS","reason":"Written number and duration."}
+{"id":"gen-num-004","category":"numbers_dates_times","sentence":"Die Wohnung kostet 850 Euro im Monat.","level":"A1","expected":"PASS","reason":"Rent amount and currency."}
+{"id":"gen-num-005","category":"numbers_dates_times","sentence":"Heute sind es minus zwei Grad.","level":"A1","expected":"PASS","reason":"Common temperature expression."}
+{"id":"gen-num-006","category":"numbers_dates_times","sentence":"Der Termin dauert 45 Minuten.","level":"A2","expected":"PASS","reason":"Numeric duration."}
+{"id":"gen-num-007","category":"numbers_dates_times","sentence":"Mein Zug fährt am 21.06. um 14:05 Uhr.","level":"A2","expected":"PASS","reason":"Combined numeric date and digital time."}
+{"id":"gen-num-008","category":"numbers_dates_times","sentence":"Das Paket wiegt 3,5 Kilo.","level":"A1","expected":"PASS","reason":"Decimal measurement."}
+{"id":"gen-num-009","category":"numbers_dates_times","sentence":"Die Prüfung ist im Jahr 2027.","level":"A2","expected":"PASS","reason":"Four-digit year."}
+{"id":"gen-num-010","category":"numbers_dates_times","sentence":"Wir treffen uns gegen halb sechs.","level":"A1","expected":"PASS","reason":"Colloquial clock-time phrase from the time domain."}
+{"id":"gen-comp-001","category":"compounds","sentence":"Mein Lieblingsessen ist Pizza.","level":"A2","expected":"PASS","reason":"Explicit productive Lieblings- stem plus an allowed component."}
+{"id":"gen-comp-002","category":"compounds","sentence":"Die Hauptstraße ist heute gesperrt.","level":"A2","expected":"PASS","reason":"Transparent Haupt- place compound."}
+{"id":"gen-comp-003","category":"compounds","sentence":"Der Arbeitsplatz ist neben dem Fenster.","level":"A2","expected":"PASS","reason":"Common compound explicitly represented in the source vocabulary."}
+{"id":"gen-comp-004","category":"compounds","sentence":"Ich trinke morgens Apfelsaft.","level":"A1","expected":"PASS","reason":"Common food compound represented by familiar components/source use."}
+{"id":"gen-comp-005","category":"compounds","sentence":"Der Zimmerschlüssel liegt auf dem Tisch.","level":"A1","expected":"PASS","reason":"Transparent familiar compound with allowed components."}
+{"id":"gen-comp-006","category":"compounds","sentence":"Die Kinder warten an der Bushaltestelle.","level":"A2","expected":"PASS","reason":"Common travel compound expected in routine A2 language."}
+{"id":"gen-comp-007","category":"compounds","sentence":"Das Hochgeschwindigkeitsnetz wird erweitert.","level":"A2","expected":"UNKNOWN","reason":"Complex technical compound beyond A2."}
+{"id":"gen-comp-008","category":"compounds","sentence":"Die Steuerrechtsreform beginnt nächstes Jahr.","level":"A2","expected":"UNKNOWN","reason":"Abstract specialist compound outside A2."}
+{"id":"gen-comp-009","category":"compounds","sentence":"Der Gartenstuhl ist grün.","level":"A1","expected":"PASS","reason":"Transparent everyday compound with two allowed components."}
+{"id":"gen-comp-010","category":"compounds","sentence":"Eine Sprachlernplattform kann hilfreich sein.","level":"A2","expected":"UNKNOWN","reason":"Novel multi-part technology compound is genuinely uncertain."}
+{"id":"gen-out-001","category":"outside_level","sentence":"Die Veranstaltung wurde verschoben.","level":"A1","expected":"FAIL","reason":"A2 event vocabulary tested under A1."}
+{"id":"gen-out-002","category":"outside_level","sentence":"Bitte vereinbaren Sie einen neuen Termin.","level":"A1","expected":"FAIL","reason":"A2 scheduling verb tested under A1."}
+{"id":"gen-out-003","category":"outside_level","sentence":"Wahrscheinlich kommt er später.","level":"A1","expected":"FAIL","reason":"A2 probability adverb tested under A1."}
+{"id":"gen-out-004","category":"outside_level","sentence":"Sie hat viel Erfahrung im Beruf.","level":"A1","expected":"FAIL","reason":"A2 abstract work noun tested under A1."}
+{"id":"gen-out-005","category":"outside_level","sentence":"Wir sollten die Nachhaltigkeitsstrategie optimieren.","level":"A2","expected":"UNKNOWN","reason":"Advanced policy and management vocabulary."}
+{"id":"gen-out-006","category":"outside_level","sentence":"Die Hypothese wurde empirisch widerlegt.","level":"A2","expected":"UNKNOWN","reason":"Academic research vocabulary beyond A2."}
+{"id":"gen-out-007","category":"outside_level","sentence":"Bitte konfigurieren Sie die Authentifizierung.","level":"A2","expected":"UNKNOWN","reason":"Specialist software vocabulary."}
+{"id":"gen-out-008","category":"outside_level","sentence":"Die geopolitische Lage bleibt volatil.","level":"A2","expected":"UNKNOWN","reason":"Advanced political and economic vocabulary."}
+{"id":"gen-out-009","category":"outside_level","sentence":"Seine Schlussfolgerung ist widersprüchlich.","level":"A2","expected":"UNKNOWN","reason":"Abstract argumentative vocabulary beyond A2."}
+{"id":"gen-out-010","category":"outside_level","sentence":"Das Medikament verursacht unerwünschte Nebenwirkungen.","level":"A2","expected":"UNKNOWN","reason":"Specialized medical vocabulary beyond routine A2 health language."}
+{"id":"gen-unc-001","category":"genuinely_uncertain","sentence":"Das Essen ist mega lecker.","level":"A2","expected":"UNKNOWN","reason":"Colloquial intensifier is not clearly within the formal source inventory."}
+{"id":"gen-unc-002","category":"genuinely_uncertain","sentence":"Wir treffen uns im Kiez.","level":"A2","expected":"UNKNOWN","reason":"Regional urban vocabulary is uncertain."}
+{"id":"gen-unc-003","category":"genuinely_uncertain","sentence":"Der Film war echt cool.","level":"A2","expected":"UNKNOWN","reason":"Informal loanword and intensifier are uncertain for the policy."}
+{"id":"gen-unc-004","category":"genuinely_uncertain","sentence":"Ich brauche einen Adapter.","level":"A2","expected":"UNKNOWN","reason":"Common modern object but uncertain Goethe coverage."}
+{"id":"gen-unc-005","category":"genuinely_uncertain","sentence":"Sie arbeitet als Coach.","level":"A2","expected":"UNKNOWN","reason":"Modern occupational loanword is uncertain."}
+{"id":"gen-unc-006","category":"genuinely_uncertain","sentence":"Das Café bietet vegane Snacks an.","level":"A2","expected":"UNKNOWN","reason":"Modern food adjectives and loanword are uncertain."}
+{"id":"gen-unc-007","category":"genuinely_uncertain","sentence":"Schick mir bitte den QR-Code.","level":"A2","expected":"UNKNOWN","reason":"Modern technical item outside the historical source material."}
+{"id":"gen-unc-008","category":"genuinely_uncertain","sentence":"Der Akku ist fast leer.","level":"A2","expected":"UNKNOWN","reason":"Common technology noun with uncertain source inclusion."}
+{"id":"gen-unc-009","category":"genuinely_uncertain","sentence":"Wir machen später einen Brunch.","level":"A2","expected":"UNKNOWN","reason":"Meal loanword is plausible but not clearly in the source."}
+{"id":"gen-unc-010","category":"genuinely_uncertain","sentence":"Die App funktioniert offline.","level":"A2","expected":"UNKNOWN","reason":"Modern technology terms are genuinely uncertain."}

@@ -9,3 +9,6 @@ mdurl==0.1.2
 Pygments==2.20.0
 python-dotenv==1.2.2
 rich==15.0.0
+streamlit==1.49.1
+spacy==3.8.16
+de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0-py3-none-any.whl
