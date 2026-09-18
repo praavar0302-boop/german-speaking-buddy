@@ -23,9 +23,9 @@ uses the cumulative A2 data. Because a word list cannot prove the level of every
 possible German word or inflected form, words without enough evidence are
 reported as uncertain rather than automatically marked wrong.
 
-Vocabulary checking is not yet connected to the live chatbot. Sentence-length
-and structural checking have also been built as a separate standalone feature.
-Grammar checking will be added later.
+Vocabulary checking is not yet connected to the live chatbot. A separate
+standalone language-level checker now checks sentence structure and grammar
+complexity. It is also not yet connected to the live chatbot.
 
 ## Sources
 

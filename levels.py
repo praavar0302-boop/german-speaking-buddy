@@ -10,6 +10,17 @@ CEFR thresholds.
 """
 
 
+COMMON_MODAL_LEMMAS = [
+    "dürfen",
+    "können",
+    "mögen",
+    "müssen",
+    "sollen",
+    "wollen",
+    "möchten",
+]
+
+
 LEVEL_POLICIES = {
     "A1": {
         "maximum_level": "A1",
@@ -93,6 +104,24 @@ LEVEL_POLICIES = {
             ],
             "maximum_subordination_depth": 0,
             "maximum_subordinate_clauses_per_sentence": 0,
+            "language_features": {
+                "allowed_subordinate_connectors": [],
+                "unlisted_subordinate_connector_result": "VIOLATION",
+                "relative_clauses": "avoid",
+                "relative_clause_result": "VIOLATION",
+                "allowed_tense_patterns": ["present", "perfect"],
+                "common_preterite_lemmas": ["sein", "haben"],
+                "uncommon_preterite_result": "WARNING",
+                "advanced_tense_patterns": ["pluperfect", "future_perfect"],
+                "advanced_tense_result": "VIOLATION",
+                "allowed_modal_lemmas": COMMON_MODAL_LEMMAS,
+                "zu_infinitive": "simple forms are uncertain; avoid complex forms",
+                "simple_zu_infinitive_result": "WARNING",
+                "multiple_zu_infinitive_result": "WARNING",
+                "passive": "avoid productive passive voice",
+                "simple_passive_result": "VIOLATION",
+                "advanced_passive_result": "VIOLATION",
+            },
             "other_measurable_limits": [
                 "Ask no more than one question in each response.",
             ],
@@ -181,6 +210,28 @@ LEVEL_POLICIES = {
             ],
             "maximum_subordination_depth": 1,
             "maximum_subordinate_clauses_per_sentence": 1,
+            "language_features": {
+                "allowed_subordinate_connectors": ["weil", "dass", "wenn", "ob"],
+                "unlisted_subordinate_connector_result": "WARNING",
+                "relative_clauses": "allow only simple, non-nested forms",
+                "relative_clause_result": "PASS",
+                "allowed_tense_patterns": ["present", "perfect", "preterite"],
+                "common_preterite_lemmas": [
+                    "sein",
+                    "haben",
+                    *COMMON_MODAL_LEMMAS,
+                ],
+                "uncommon_preterite_result": "PASS",
+                "advanced_tense_patterns": ["pluperfect", "future_perfect"],
+                "advanced_tense_result": "WARNING",
+                "allowed_modal_lemmas": COMMON_MODAL_LEMMAS,
+                "zu_infinitive": "allow simple forms",
+                "simple_zu_infinitive_result": "PASS",
+                "multiple_zu_infinitive_result": "WARNING",
+                "passive": "avoid advanced passive forms",
+                "simple_passive_result": "PASS",
+                "advanced_passive_result": "WARNING",
+            },
             "other_measurable_limits": [
                 "Ask no more than one main question in each response.",
             ],
