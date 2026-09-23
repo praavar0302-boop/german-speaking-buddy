@@ -3,6 +3,16 @@ import json
 import httpx
 
 
+class ProviderAPIError(RuntimeError):
+    """An HTTP error from a model provider, kept server-side."""
+
+    def __init__(self, provider, status_code, detail):
+        self.provider = provider
+        self.status_code = status_code
+        self.detail = detail
+        super().__init__(f"{provider} API error ({status_code}): {detail}")
+
+
 GEMINI_MODEL = "gemini-3.6-flash"
 
 GEMINI_API_URL = (
@@ -65,6 +75,7 @@ def stream_gemini_response(
         },
         "contents": gemini_history,
         "generationConfig": {
+            "maxOutputTokens": 180,
             "thinkingConfig": {
                 "thinkingLevel": "low"
             }
@@ -82,9 +93,7 @@ def stream_gemini_response(
         if response.status_code != 200:
             error_message = response.read().decode()
 
-            raise RuntimeError(
-                "Gemini API error: " + error_message
-            )
+            raise ProviderAPIError("gemini", response.status_code, error_message)
 
         for line in response.iter_lines():
 
@@ -97,6 +106,16 @@ def stream_gemini_response(
                 continue
 
             response_data = json.loads(json_text)
+
+            if "error" in response_data:
+                error = response_data["error"]
+                if not isinstance(error, dict):
+                    error = {"message": str(error)}
+                raise ProviderAPIError(
+                    "gemini",
+                    error.get("code", 0),
+                    json.dumps(error),
+                )
 
             if "candidates" not in response_data:
                 continue
@@ -141,7 +160,8 @@ def stream_openrouter_response(
     request_payload = {
         "model": OPENROUTER_MODEL,
         "messages": messages,
-        "stream": True
+        "stream": True,
+        "max_tokens": 180,
     }
 
     with httpx.stream(
@@ -155,9 +175,7 @@ def stream_openrouter_response(
         if response.status_code != 200:
             error_message = response.read().decode()
 
-            raise RuntimeError(
-                "OpenRouter API error: " + error_message
-            )
+            raise ProviderAPIError("openrouter", response.status_code, error_message)
 
         for line in response.iter_lines():
 
